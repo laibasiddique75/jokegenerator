@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+@font-face {
+    font-family:"anton" ;
+    src: url(font/Anton-Regular.ttf);
+}
+
+
+body{
+    background:linear-gradient(45deg,rgb(197, 64, 86),rgb(31, 31, 204)) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main{
+    border: 2px solid red;
+    width: 500px;
+    height: 300px;
+    color: white;
+    border-radius: 25px;
+}
+
+h1{
+    font-family:"anton" ;
+    font-size: 40px;
+    margin-left: -20px;
+}
+#jokes{
+    height: 100px;
+    color: white;
+    width: 200px;
+    border: 2px solid gray;
+    margin-top: 20px;
+    text-align: center;
+    padding-top:5px ;
+}
+  .container{
+  padding-left: 150px;
+  padding-top: 20px;
+}
+button{
+    background:linear-gradient(45deg,pink,rgb(107, 107, 162)) ;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top:25px;
+    font-size: 20px;
+    font-family:"anton" ;
+    color: white;
+    
+}
